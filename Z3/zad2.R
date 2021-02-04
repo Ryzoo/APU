@@ -1,0 +1,15 @@
+install.packages("neuralnet")
+library("neuralnet")
+setwd("C:/Users/mistr/Desktop/R_lab3_workspace")
+data = read.csv("macbook_data_frame.csv", header = TRUE)
+normalize <- function(x) {
+  return ((x - min(x)) / (max(x) - min(x)))
+}
+skalowany_ram<-data.frame( normalize(data$ram_Gb))
+skalowany_dysk<-data.frame( normalize(data$dysk_Gb))
+skalowany_ekran<-data.frame(normalize(data$ekran_cale))
+skalowana_cena<-data.frame(normalize(data$ceny_zl))
+trainingSet<-cbind(skalowany_dysk,skalowany_ekran,skalowany_ram,skalowana_cena)
+colnames(trainingSet)<-c("input_dysk","input_ekran","input_ram","price")
+net.price<-neuralnet(price~input_dysk+input_ekran+input_ram,trainingSet,hidden=c(4,5), threshold = 0.01)
+plot(net.price)
