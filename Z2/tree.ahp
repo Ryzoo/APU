@@ -1,0 +1,367 @@
+Version: 3
+
+Alternatives: &alternatives
+ Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra):	
+  ekran_cale:	13.3
+  ram_Gb:	8
+  dysk_Gb:	128
+  ceny_zl:	3699
+  liczba_opini:	273
+  srednia_ocena:	4.5
+ Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra:	
+  ekran_cale:	12.1
+  ram_Gb:	8
+  dysk_Gb:	256
+  ceny_zl:	5699
+  liczba_opini:	2
+  srednia_ocena:	5
+ Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver):	
+  ekran_cale:	13.3
+  ram_Gb:	8
+  dysk_Gb:	256
+  ceny_zl:	5699
+  liczba_opini:	0
+  srednia_ocena:	2.5
+ Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold):	
+  ekran_cale:	13.3
+  ram_Gb:	8
+  dysk_Gb:	128
+  ceny_zl:	4999
+  liczba_opini:	1
+  srednia_ocena:	5
+ Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold):	
+  ekran_cale:	13.3
+  ram_Gb:	8
+  dysk_Gb:	256
+  ceny_zl:	5549
+  liczba_opini:	3
+  srednia_ocena:	5
+ Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra:	
+  ekran_cale:	12.1
+  ram_Gb:	8
+  dysk_Gb:	512
+  ceny_zl:	7149
+  liczba_opini:	3
+  srednia_ocena:	5
+ Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS:	
+  ekran_cale:	13.3
+  ram_Gb:	8
+  dysk_Gb:	512
+  ceny_zl:	8549
+  liczba_opini:	1
+  srednia_ocena:	5
+ Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS:	
+  ekran_cale:	13.3
+  ram_Gb:	8
+  dysk_Gb:	256
+  ceny_zl:	7499
+  liczba_opini:	1
+  srednia_ocena:	0
+ Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS:	
+  ekran_cale:	15.4
+  ram_Gb:	16
+  dysk_Gb:	256
+  ceny_zl:	10499
+  liczba_opini:	0
+  srednia_ocena:	5
+ Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver):	
+  ekran_cale:	13.3
+  ram_Gb:	8
+  dysk_Gb:	128
+  ceny_zl:	4999
+  liczba_opini:	0
+  srednia_ocena:	0
+
+
+Goal:
+ name: Buy Fridge
+ author: xyz
+ preferences:
+  pairwise:
+  - [efficiency, quality, 3]
+  - [efficiency, style, 8]
+  - [efficiency, price, 6]
+  - [quality, style, 6]
+  - [quality, price, 6]
+  - [style,   price, 3]
+ children:
+  efficiency:
+   preferences:
+    pairwise:
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	1/4	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	1/9	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	1/6	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/5	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	6	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/3	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	8	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	8	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	2	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	9	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	7	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	4	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/7	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	6	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/7	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	8	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/7	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/8	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/7	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	5	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	9	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	2	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/6	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	8	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/9	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	3	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	7	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/8	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/2	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	1/9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	2	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	4	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	4	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/7	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/5	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/5	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	9	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/5	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/8	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/4	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	5	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	9	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/4	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/8	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/9	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	6	]
+     - [	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	5	]
+   children: *alternatives
+  quality:
+   preferences:
+    pairwise:
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	1/2	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	3	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	1/6	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/8	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	4	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/2	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/4	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	4	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	8	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/9	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	9	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	2	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	1/7	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	2	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	1/6	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/8	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/8	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	7	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/2	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	2	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	6	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	1/6	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/8	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	1/3	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/4	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/6	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	9	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	7	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/3	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	8	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/4	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	1/5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/8	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/2	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/5	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	8	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/6	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/6	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	2	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	3	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	2	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/2	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	3	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	7	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/7	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/3	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/6	]
+     - [	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1	]
+   children: *alternatives
+  style:
+   preferences:
+    pairwise:
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	3	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	1/3	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	7	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/6	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	6	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/9	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	5	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	2	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/3	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/3	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	2	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	1/3	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/2	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	8	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/4	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	9	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	5	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/9	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	8	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/5	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	1/9	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	5	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	5	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/5	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	4	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/6	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	9	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	9	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	1/3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	2	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	8	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	1/7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	4	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/2	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/4	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	8	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	6	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	6	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/7	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	3	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/5	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	3	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/4	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	8	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	3	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	2	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/7	]
+     - [	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/3	]
+   children: *alternatives
+  price:
+   preferences:
+    pairwise:
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	6	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	6	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	1/7	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	6	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	1/2	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/3	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	9	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	3	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	7	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/6	]
+     - [	 Apple Macbook 12 Intel Core i5 - 8GB RAM - 512GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	8	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	1/8	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	1/5	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/2	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	5	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	3	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	6	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	9	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	6	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/4	]
+     - [	 Apple Macbook Air 13 13,3" Intel Core i5-5360U - 8GB RAM - 128GB Dysk - OS Sierra),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/7	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	7	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	1/5	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	1/8	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	6	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	2	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/3	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	4	]
+     - [	 Apple Macbook 12 MNYH2ZE/A Intel Core m3 - 8GB RAM - 256GB Dysk - OSX Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	8	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	1/9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/5	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (silver),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/2	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	1/3	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/8	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/7	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	8	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	4	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	4	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/9	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	2	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/6	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/8	]
+     - [	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS (gold),	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/5	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	1/7	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	6	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/8	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/6	]
+     - [	 Apple Macbook 12 Intel Core™ i5-7Y54 - 8GB RAM - 512GB Dysk - OS X Sierra,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/2	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	1/3	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/6	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 512GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/5	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	5	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	1/7	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	4	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	9	]
+     - [	 Apple Macbook Pro 13 z Touch Bar 13,3" Intel Core i5 - 8GB RAM - 256GB Dysk - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	4	]
+     - [	 Apple Macbook Pro 15 z Touch Bar 15,4" Intel Core i7 - 16GB RAM - 256GB Dysk - R555X Grafika - macOS,	 Apple Macbook Air 13 2019 13,3" Intel Core i5 - 8GB RAM - 128GB Dysk - macOS (silver),	1/2	]
+   children: *alternatives
